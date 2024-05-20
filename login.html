@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0px;
+            font-family: "Vollkorn", serif;
+            display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			background: linear-gradient(to bottom, #02bdbd, #8fec9a, #a7faf5);
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        a {
+            margin: 0;
+            padding: 0;
+        }
+
+        .login {
+            margin: 0 auto;
+            max-width: 500px;
+        }
+
+        .login-header {
+            color: #fff;
+            text-align: center;
+            font-size: 300%;
+        }
+
+        .login-form h3 {
+            text-align: left;
+            margin-left: 40px;
+            color: #fff;
+        }
+
+        .login-form {
+            box-sizing: border-box;
+            padding-top: 15px;
+            padding-bottom: 10%;
+            margin: 5% auto;
+            text-align: center;
+        }
+
+        .login input[type="text"],
+        .login input[type="password"] {
+            max-width: 400px;
+            width: 80%;
+            line-height: 3em;
+            font-family: 'Ubuntu', sans-serif;
+            margin: 1em 2em;
+            border-radius: 5px;
+            border: 2px solid #f2f2f2;
+            outline: none;
+            padding-left: 10px;
+        }
+
+        .login-form input[type="button"] {
+            height: 30px;
+            width: 100px;
+            background: #fff;
+            border: 1px solid #f2f2f2;
+            border-radius: 20px;
+            color: slategrey;
+            text-transform: uppercase;
+            font-family: 'Ubuntu', sans-serif;
+            cursor: pointer;
+        }
+
+        .sign-up {
+            color: #f2f2f2;
+            margin-left: -70%;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .no-access {
+            color: #E86850;
+            margin: 20px 0px 20px -57%;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .login-button:hover {
+			background: #6d44b8;
+		}
+    </style>
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="login">
+        <div class="login-header">
+            <h1>Login</h1>
+        </div>
+        <div class="login-form">
+            <h3>Username:</h3>
+            <input type="text" placeholder="Username" /><br>
+            <h3>Password:</h3>
+            <input type="password" placeholder="Password" />
+            <br>
+            <input type="button" value="Login" class="login-button" />
+            <br>
+            <a href="signup.html" class="sign-up">Sign Up!</a>
+            <br>
+            <h3 class="no-access">Can't access your account?</h3>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
