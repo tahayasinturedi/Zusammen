@@ -241,6 +241,9 @@ html {
 .logo h1 span:nth-child(7) {
   animation: drop-letters 5s 0.7s infinite;
 }
+.logo h1 span:nth-child(8) {
+  animation: drop-letters 5s 0.9s infinite;
+}
 
 @keyframes drop-letters {
   0% {
@@ -489,7 +492,6 @@ html {
     background-color: #3d3d3d;
   }
 }
-
 /* End of Contact */
 
 /* Footer */

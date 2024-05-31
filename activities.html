@@ -123,7 +123,6 @@
             let events = JSON.parse(localStorage.getItem('events')) || [];
             events.push(activity);
             localStorage.setItem('events', JSON.stringify(events));
-            alert('Event created successfully!');
             
             displayActivity(activity);
         });
